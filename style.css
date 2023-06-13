@@ -1,0 +1,191 @@
+/* Background */
+body {
+  background: linear-gradient(
+    145.91deg,
+    #004c54 -9.53%,
+    #004c54 60.49%,
+    #004c54 130.5%,
+    #004c54 130.5%
+  );
+}
+
+/* PC/Tablet Version */
+
+#header {
+  margin: 20px;
+}
+
+#main-logo {
+  width: 30%;
+}
+
+#app-icon {
+  width: 40%;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+#download {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.store-link {
+  width: 250px;
+}
+
+#logo {
+  width: 100%;
+}
+
+#app-icon {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#mobile-image {
+  width: 100%;
+  height: auto;
+}
+
+#screenshot-container {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+
+  color: #ffffff;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+/* Remove mobile Content */
+
+#header-mobile {
+  display: none;
+}
+
+#container-mobile {
+  display: none;
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 600px) {
+  #header-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #container-mobile {
+    display: block;
+  }
+
+  #main-logo-mobile {
+    width: 40%;
+    margin: 4%;
+  }
+
+  #app-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  #app-icon-mobile {
+    width: 50%;
+  }
+
+  #logo-mobile {
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+
+  #download-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .store-link-mobile {
+    width: 65%;
+  }
+
+  #text-mobile {
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 18%;
+  }
+
+  h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    color: #ffffff;
+  }
+
+  /* Remove PC/Tablet Content */
+
+  #header {
+    display: none;
+  }
+
+  #container {
+    display: none;
+  }
+}
