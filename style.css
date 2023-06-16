@@ -1,22 +1,17 @@
 /* Background */
 body {
-  background: linear-gradient(
-    145.91deg,
-    #004c54 -9.53%,
-    #004c54 60.49%,
-    #004c54 130.5%,
-    #004c54 130.5%
-  );
+  background: #004c54;
 }
 
 /* PC/Tablet Version */
 
 #header {
-  margin: 20px;
+  margin: 32px;
 }
 
 #main-logo {
   width: 30%;
+  max-width: 230px;
 }
 
 #app-icon {
@@ -26,7 +21,7 @@ body {
 #container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  margin-left: 50px;
 }
 
 #content {
@@ -48,6 +43,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20%;
+  min-width: 120px;
 }
 
 #download {
@@ -57,7 +53,8 @@ body {
 }
 
 .store-link {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
 }
 
 #logo {
@@ -119,7 +116,9 @@ p {
   }
 
   #container-mobile {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #main-logo-mobile {
@@ -149,10 +148,16 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    max-width: 450px;
   }
 
   .store-link-mobile {
+    display: block;
     width: 65%;
+  }
+
+  .store-link-mobile > img{
+    width: 100%;
   }
 
   #text-mobile {
