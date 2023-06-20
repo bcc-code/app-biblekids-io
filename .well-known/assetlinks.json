@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "media.bcc.kids",
+            "sha256_cert_fingerprints": [
+                "29:9A:57:20:D2:82:1C:48:6A:7B:BC:08:DF:97:EB:03:1C:63:2C:EE:77:46:6D:3F:B5:24:3B:5E:96:FC:97:9B"
+            ]
+        }
+    }
+]
