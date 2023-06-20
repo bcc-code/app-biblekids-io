@@ -1,6 +1,9 @@
 /* Background */
 body {
   background: #004c54;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  color: #ffffff;
 }
 
 /* PC/Tablet Version */
@@ -21,14 +24,16 @@ body {
 #container {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 
 #content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 40px;
+  padding-left: 40px;
 }
 
 #app-container {
@@ -73,27 +78,20 @@ body {
 
 #screenshot-container {
   width: 30%;
+  min-width: 200px;
   display: flex;
   align-items: center;
-  padding: 40px;
 }
 
 h1 {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 45px;
 
-  color: #ffffff;
 }
 
 p {
-  font-family: "Noto Sans", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-
-  color: #ffffff;
 }
 
 /* Remove mobile Content */
